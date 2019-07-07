@@ -1,0 +1,296 @@
+	body{
+		padding: 0px; /*the padding is 0 in this section*/
+		margin: 0px;	
+		width: 100%;
+		background-image: url("5.png");/*the background image is set in the png format in the body*/
+		font-family: tw cen mt;/*font family is suitable to the text*/
+
+		
+
+	}
+
+
+	header{
+		padding: 10px;
+		width: auto;
+		display:flex ;/*the items in the header are displayed in the flex way*/
+		font-size:20px;/*suitable font size for the text*/
+		height: 100%;
+		background-color: rgba(0,0,0,0.7);/*background color transparent*/
+		color: #d3d3d3;/*the color is set to lightgrey in the code format*/
+		
+		margin: 0;/*the margin is zero*/
+
+
+
+	}
+	.title{
+		padding: 0px;
+		font-family: tw ces mt;/*suitable font family for the text*/
+		font-size: 20px;/*suitable font size*/
+		list-style: none;/*to put no any bullet sign in the nav bar*/
+		
+		
+		width: 100%;/*width is 100% for the class title*/
+	}
+	/*change the color on hover*/
+	.title:hover{
+		
+		border-radius: 180px;/*whenever hover the border gets changed*/
+
+
+	}
+	.title ul{
+		padding: 15px 30px;
+		display: flex;/*items are placed in the flex format*/
+	}
+	.title li{
+		padding: 0px 30px;/*this makes the items go right way according to the pixels*/
+
+	}
+	.title li:hover{
+		background-color: #808080;/*the background color is set to gray on hover*/
+		border-radius: 25px;/*border radius is set to 25 pixels*/
+		padding: 0px 50px;
+		box-shadow: 5px 5px;/*box will have shadow on hover*/
+	}
+
+	ul{
+			padding:10px 110px;/*making suitable padding down and right*/
+			width: 100%;
+			margin: 30px;
+			font-family: ubuntu;/*suitable font family*/
+			list-style: none;/*this makes the bullet not come into the list*/
+			color: green;
+			font-size: 25px;/*suitable font size*/
+			display: inline-flex;
+
+
+
+
+
+
+	}
+	li a {
+		display: block;/*displays block into the text or icons*/
+		font-family: tw cen mt;/*suitable font family */
+		margin: 8px;/*border space*/
+		padding: 15px 50px;/*content space*/ 
+		font-size: 20px;/*suitable font size*/
+		display: inline-block;/* makes inline block on the items*/
+		border-radius: 25px;/*makes the border into another blunt shape called radius*/
+		color:white;/*suitable white color*/
+		
+
+	}
+	.icons ul li{
+		padding: 10px 80px;/*content space*/
+
+	}
+	.ul {
+		list-style: none;/* the bullet gets hidden */
+		box-shadow: 5px 10px;/*there will be shadow behind the box*/
+		text-align: center;/*the text will appear at the center*/
+		display: flex;/* put it on flex in row/*
+
+	}
+
+
+
+
+	h1{
+		padding: 10px;/*gives content space*/
+		margin: 10px;/*gives border space*/
+		color: #d3d3d3;/*code for light grey color*/
+		text-align: center;/*keeps text on center/*
+	}
+	h2{
+		padding: 0px;/*gives content space*/
+		margin: 5px;/*keeps border space*/
+		text-align: center;/*keeps text on center*/
+		color: #d3d3d3;/*the lightgrey color is set into the code format*/
+		
+
+	}
+	h3{
+		padding: 10px;/*manage content space*/
+		margin: 10px;/*manage border space*/
+		font-family: comic sans ms;/*suitable font family*/
+		text-align: center;/*makes the items go on center*/
+		color: #d3d3d3;/*the lightgrey color is set into the code format*/
+	}
+	.bish{
+		transition-duration: 1s;
+		transform: rotate3d(1,1,1,6.33rad);
+		animation: bish; 
+	}
+	
+
+
+
+
+		
+
+	 
+	section{
+
+		padding: 10px;/*content space*/
+		font-size:15px;/*suitable font size*/
+		color: #d3d3d3;/*the lightgrey color is set into the code format*/
+		text-align:center;/*text will go to the center*/
+		background-color: rgba(0,0,0,0.7);/*background color transparent*/
+		margin: 0;/*border space*/
+		
+
+	}
+	section img{
+		
+		border-radius: 50px;/*the image will have the border radius*/
+
+
+
+
+	}
+
+	section .ul  {
+		text-align: center;/*text will go to the center*/ 
+		display: inline-flex;/*makes the items on row*/
+		border-radius: 25px;/*makes the items border radius*/
+
+		
+	}
+	section .ul li:hover{
+		background-color: rgba(0,0,0,0.5);/*background color change on hover*/
+		box-shadow: 5px 5px;/*box will have shadow behind it*/
+		
+		border-radius: 25px;
+
+
+	}
+	img:hover{
+		
+		border-radius: 150px;/* image border radius*/
+
+
+
+	}
+	/*change the border-radius on hover*/
+	 section .img:hover{
+		border-radius: 50px;/* image border radius when hover*/
+
+
+
+
+
+
+	    
+
+
+
+	}
+
+	.About{
+		display: flex;/*items on row*/
+		
+		
+
+
+	}
+
+
+	footer{
+		width: auto;/*width auto*/
+		padding: 10px;/*content space*/
+		font-size: 15px;
+		background-color: #d3d3d3;/*color is lightgrey in code format*/
+		
+		background-color: rgba(0,0,0,0.7);/*transparent background color*/
+		margin: 0;
+		
+
+	}
+	.copy{
+		color: white;/*suitable color*/
+		font-family: tw cen mt;
+		font-size: 20px;
+		text-align: center;/*centered the text*/
+
+	}
+	h4{
+		font-size: 20px;
+		text-align: center;/*centered the text*/
+		color: #d3d3d3;/*color is lightgrey in code format*/
+	}
+	.list{
+		color: white; 
+		width: 100%;
+		display: flex;
+
+		
+	}
+	.list ul{
+		
+		width: 50%;
+		padding: 0px 20px;
+		margin-top: 10px;
+		border-bottom: none;
+		
+	}
+	.list ul li{
+		flex-direction: column;/*items get to column */
+		width: 50%;
+		margin: 10px;
+	}
+	.list ul li a{
+		flex-direction: column;/*items get to column */
+		width:60%;
+
+	}
+	.list li a{
+		flex-direction: column;/*items get to column */
+	}
+	.icons{
+		
+		
+		color: white;
+		list-style: none;/*no list is added*/
+		display: flex;
+
+	}
+	.icons ul{
+		width: 50%;
+		padding: 0px 20px;
+		margin-top: 10px;
+		border-bottom: none;/* no border bottom*/
+
+	}
+	.icons ul li{
+		flex-direction: column;/*items get to column */
+
+	}
+	.icons ul li a{
+		flex-direction: column;/*items get to column *//*items get to column */
+		width: 40%;/*suitable width
+	}
+	.icons li a{
+		font-size: 35px;/*suitable font size*/
+		flex-direction: column;/*items get to column */
+	}
+
+	@media only screen and (max-width:500px) {
+	  /* For mobile phones: */
+	  .list ul{
+	    width: 50%;/*suitable width*/
+	    display: flex;/*items on row*/
+	    flex-direction: column;/*items get to column on responsive*/
+	  }
+
+	@media only screen and (max-width:500px) {
+	  /* For mobile phones: */
+	  .icons ul{
+	    width: 50%;
+	    display: flex;
+	    flex-direction: column;/*items get to column on responsive*/
+	  }
+	}
+	}

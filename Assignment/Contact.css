@@ -1,0 +1,152 @@
+body{
+	padding: 0px;/*suitable space on the content*/
+	background-color: rgba(0,0,0,0.7);/*transparent backgorund color*/
+	margin: 0px;
+	text-align: center;/* text on center*/
+	width: 100%;/*suitable width*/
+}
+header{
+	padding: 8px;
+	list-style: none;
+	background-color: rgba(0,0,0,0.5);/*transparent background color*/
+	margin: 0px;
+	font-size: 20px;/*suitable font size*/
+}
+ul {
+	list-style: none;/*no list style*/
+	display: flex;/*items on row*/
+	margin: 0px;
+	padding: 10px;/* space on the content*/
+}
+li a{
+	padding: 20px 77px;/*space on the content*/
+	color: white;/* suitable color*/
+	font-size: 20px;/*suitable font size*/
+	font-family: tw cen mt;
+	border-radius: 25px;
+
+}
+li a:hover{
+	background-color: grey;/* background color changes on hover*/
+}
+section{
+	display: flex;/*items on row*/
+	border:0;
+	
+
+}
+
+.form-wrap{
+	width: 50%;
+	border:solid 10px;
+	padding: 12px;
+	margin: 10px;
+
+}
+fieldset{
+	padding: 0px 0px ;	
+	margin: 0px;
+	border: solid;
+	border-color: grey;
+	display: flex;
+	flex-direction: column;
+
+}
+.form{
+	display: inline-flex;
+	width: 100%;	
+
+	
+}
+.form h4{
+	padding: 42px 0px;
+}
+
+.labelone{
+	padding: 0px;
+	margin: 10px;
+	font-size: 20px;
+	display: flex;
+
+}
+.labeltwo{
+	padding: 0px;
+	margin: 27px;
+	font-size: 20px;
+	display: flex;
+}
+.labelthree{
+	padding: 10px;
+	margin: 0px 15px;
+	font-size: 20px;
+	display: flex;
+	height: 155px;
+	
+}
+
+textarea{
+	padding: 10px;
+	margin: 0px;
+	width: 50%;
+	height: 100px;
+}
+h4{
+	font-size: 44.5px;
+	font-family: tw cen mt;
+	height:7px;
+	width:100%;
+
+}
+.copy{
+	color: white;
+	font-family: tw cen mt;
+	font-size: 20px;
+	text-align: center;
+}
+.list{
+	color: white; 
+	width: 100%;
+	display: flex;
+
+	
+}
+.list ul{
+	
+	width: 50%;
+	padding: 0px 20px;
+	margin-top: 10px;
+	border-bottom: none;
+	
+}
+.list ul li{
+	flex-direction: column;/*items on column*/
+	width: 50%;/*suitable width*/
+	margin: 10px;
+}
+.list ul li a{
+	flex-direction: column;/*items on column*/
+	width:50%;
+
+}
+.list li a{
+	flex-direction: column;/*items on column*//*items on column */
+
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .list ul{
+    width: 50%;
+    display: flex;
+    flex-direction: column;/*items on column on responsive */
+  }
+}
+  
+
+
+  
+
+
+
+
+  
+  

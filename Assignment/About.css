@@ -1,0 +1,179 @@
+body{
+	background-image: url("1.jpg");
+	width: 100%;
+
+
+
+}
+header{
+	padding: 0px;/*space on content*/
+	width: 100%;/*total width */
+	color:lightgrey;/*suitable color*/
+	display: flex;/*makes the items on row */
+	background-color: rgba(0,0,0,0.5);/*transparent background color*/
+	margin: 0px;/*border space*/
+
+}
+
+ul{
+	padding: 10px;
+	margin: 10px;
+	display: flex;
+	width: 50%;
+	display: inline-flex;/*makes the items on the row */
+	font-family: tw cen mt;/*suitable font family*/
+	color: lightgrey;/*suitable color*/
+	list-style: none;/*makes no bullet on the items*/
+
+}
+li a{
+	padding: 20px 75px;/* content space*/
+	
+	display: flex;
+	font-family: tw cen mt;/*suitable font family*/
+	font-size: 20px;
+	color: lightgrey;
+	display: block;
+	display: inline-block;
+	margin: 0px;
+
+
+}
+/*change the color on hover*/
+li a:hover{
+	border-radius: 25px;/*border radius created*/
+	background-color: grey;/*background color is grey which is suitable*/
+}
+section{
+	font-size: 50px;
+	padding: 0px;
+	margin: 0px;
+	
+}
+h1{
+	font-family: tw cen mt;
+
+}
+h2{
+	font-size: 20px;/*suitable font size*/
+	font-family: tw cen mt;/*suitable font family*/
+
+}
+.container1{
+	background-color: rgba(0,0,0,0.7);/*transparent background color*/
+	display:flex;/*items on row*/
+	margin:0px;
+	padding:0px;
+	
+}
+
+.container2{
+	background-color: rgba(0,0,0,0.7);/*transparent background color*/
+	display:flex;/*items on row*/
+	margin:0px;
+	padding:0px;
+	
+	background-color: rgba(0,0,0,0.3);/*transparent background color*/
+}
+.icons {
+	padding: 40px 50px;/*space on the content*/
+	color: white;/*suitable color*/
+	display: flex;/*items on row*/
+	margin: 25px;/*space on the border*/
+	list-style: none;/*no list style*/
+	
+
+}
+.icons ul li {
+	padding: 10px 50px;/*suitable space on content*/
+
+}
+.icons li a{
+	font-size: 35px;/*suitable font size*/
+}
+footer{
+	font-family:tw cen mt;/*suitable font family*/
+}
+.copy{
+	text-align: center;/*text in the center*/
+	color: white;/*suitable color*/
+	font-size: 20px;/*suitable font size*/
+	font-family: tw cen mt;/*suitable font family*/
+
+}
+
+
+
+ .list {
+	color: white;/*suitable color*/
+	width: 100%;/*suitable width*/
+	display: flex;/*items on row*/
+}
+ .list ul{
+	width: 50%;/*suitable width*/
+	padding: 0px 20px;/*space between content*/
+	margin: 10px;/*margin is put 10 pixels*/
+	border-bottom: none;/*border bottom is none*/
+
+}
+ .list ul li{
+	flex-direction: column;/*makes the items on column*/
+	width: 40%;
+	margin: 10px;/*space in the border*/
+
+
+}
+
+
+ .list ul li a{
+	width: 50%;/*width is put 50 percent*/
+
+	flex-direction: column;/*makes the items on column*/
+}
+ .list li a{
+	flex-direction: column;/*makes the items on column*/
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .list ul{
+    width: 50%;
+    display: flex;
+    flex-direction: column;/*makes the items on column*/
+  }
+
+
+  .icons{
+  	color: white;
+	width: 10%;
+	display: flex;
+	flex-direction: column;/*makes the items on column*/
+  }
+  .icons ul{
+  	width: 10%;
+	padding: 0px 2px;
+	margin: 10px;
+	border-bottom: none;
+
+  }
+  .icons ul li{
+  	flex-direction: column;
+	width: 10%;
+	margin: 10px;
+  }
+  .icons ul li a{
+  	width: 10%;
+
+	flex-direction: column;/*makes the items on column*/
+  }
+  .icons li a{
+  	flex-direction: column;/*makes the items on column*/
+  }
+  @media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .icons  ul  {
+    width: 50%;/*suitable width*/
+    display: flex;
+    flex-direction: column;/*makes the items on column in mobile*/
+  }
+}
+}

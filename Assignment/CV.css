@@ -1,0 +1,237 @@
+body{
+	margin: 10px;/*margin between borders*/
+	padding: 10px;/*margin between contents*/
+	background-image: url("2.png");/*suitable backgorund image*/
+	font-family: tw cen mt;/*suitable font family*/
+
+}
+
+.list{
+	margin: 20px;/*suitable margin in the border*/
+	width: 200px;/*suitable width*/
+	height: 200px;/*suitable height */
+	background-color: rgba(0,0,0,0.5);/*background color is transparent*/
+	padding:  0px;
+
+
+
+}
+ul{
+	padding: 10px;/*suitable space between contents*/
+	margin: 10px;
+	color: white;/*suitable color*/
+	display: flex;/*makes items on row*/
+	list-style: none;/*no style is put*/
+}
+li a{
+	padding: 20px 60px;/* space between contents*/
+	margin: 20px;/*space on the border*/
+	color: white;/*color is put suitable*/
+	list-style: none;/*no list style is put*/
+	font-family: tw cen mt;/*suitable font family*/
+	font-size: 20px;/*suitable font size is put*/
+
+
+
+}
+li a:hover{
+	background-color: lightgrey;/*background color is changed on hover*/
+	border-radius: 25px;/*border radius on hover*/
+	font-family: tw cen mt;/*font family changes on hover*/
+	
+}
+.p {
+	margin: 20px;/*space on the border*/
+	
+	padding: 50px 480px;/*space on the contents*/
+}
+.p h1{
+	text-align: center;/*text is put at center*/
+	display: inline-flex;/*items is put on row*/
+	box-shadow: 2px 2px;/* box shadow is created*/
+	font-size: 30px;/*font size is kept suitable*/
+
+
+}
+
+img{
+	border-radius: 100px;/* border radius is put  on image*/
+}
+.img{
+	text-align: center;/* image will go to the center*/
+	display: inline;/* inline is created*/
+	margin: 20px;/*space between border*/
+	padding: 50px 100px;/*space between contents*/
+ 
+	
+}
+
+.para{
+	text-align: center;/* para will go to the center*/
+	display: flex;	/* items on row*/
+	flex-direction: row;/*items will remain on row*/
+	margin: 20px;
+	display: inline;/* inline is created*/
+}
+.para p{
+	margin: 50px;
+	padding: 20px;
+	background-color: rgba(0,2,0,0.5);/* color is made transparent*/
+	font-family: tw cen mt;/*font family is suitable*/
+	font-size: 25px;/*suitable font size*/
+	display: flex;/*items go on row*/
+	background-color: #FFFFFF;
+	
+	
+	border-radius: 20px;
+
+}
+
+
+.cv h1,h2,h3,h4,h5,h6{
+	padding: 10px;/* space on the content*/
+	margin: 10px;/*space on the border*/
+	text-align: center;/* text is kept on center*/
+
+}
+
+
+
+h1{
+	color: white;
+	font-size: 25px;
+	font-family: tw cen mt;
+}
+h2{
+	color: white;
+	font-size: 25px;
+	font-family: tw cen mt;
+}
+footer{
+	color: white;
+	font-family: tw cen mt;
+	font-size: 20px;
+	text-align: center;
+	margin: 70px;
+	padding: 10px 20px;
+}
+footer h2{
+	text-align: center;
+	box-shadow: 2px 2px;
+
+}
+
+h3{
+	color: white;
+	font-family: tw cen mt;
+	font-size: 25px;
+	
+}
+h4{
+	color: white;
+	font-family: tw cen mt;
+	font-size: 25px;
+}
+h5{
+	color: white;
+	font-family: tw cen mt;
+	font-size: 25px;
+}
+h6{
+	color: white;
+	font-family: tw cen mt;
+	font-size: 25px;
+}
+h7{
+	color: white;
+	font-family: tw cen mt;
+	font-size: 25px;
+
+}
+.icons  {
+	padding: 0px 0px ;
+	margin: 5px;
+	list-style: none;
+	font-family: tw cen mt;
+	color: white;
+
+
+}
+.icons li{
+	display: flex;
+	flex-direction: column;
+}
+.icons li a{
+	font-size: 35px;
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .icons ul{
+    width: 50%;/*width is made suitable on responsive*/
+    margin: 10px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;/*on responsive items goes on column*/
+}
+
+
+
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .list ul{
+    width: 50%;/*suitable width*/
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;/*items goes on column on responsive*/
+}
+.list ul li{
+	padding: 10px;
+	}
+.list ul li a:hover{
+	width:2%;/*suitable width*/
+	background-color: lightgrey;
+	border-radius: 25px;
+	font-family: tw cen mt;
+
+}
+
+.img{
+	width: 100%;/*suitable width*/
+	flex-direction: column;/*items goes on column on responsive*/
+	height: auto;
+}
+
+
+
+
+
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .img img{
+    width: 50%;/*suitable width*/
+    height: 100%;
+    margin: 0px;
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;/*items goes on column on responsive*/
+
+}
+.p h1{
+	width: 100%;/*suitable width*/
+	display: flex;
+	flex-direction: column;/*items goes on column on responsive*/
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .p  {
+    width: 50%;/*suitable width*/
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;/*items goes on column on responsive*/
+}
+}
+}
+}
+}
